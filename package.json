@@ -1,9 +1,9 @@
 {
-  "name": "sz-thrift",
+  "name": "@sazze/thrift",
   "version": "1.0.0",
   "description": "A thrift client/server library",
   "main": "./index.js",
-  "homepage": "https://gitlab.sazze.com/nodejs/sz-thrift",
+  "homepage": "https://github.com/sazze/node-thrift",
   "scripts": {
     "test": "make test"
   },
@@ -11,11 +11,11 @@
     "node": ">=0.8.x"
   },
   "publishConfig": {
-    "registry": "http://npm.sazze.com"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.sazze.com/nodejs/sz-thrift.git"
+    "url": "https://github.com/sazze/node-thrift.git"
   },
   "dependencies": {
     "lodash": "^2.4.1",
@@ -25,15 +25,16 @@
     "mocha": "^1.20.1",
     "chai": "^1.9.1"
   },
-  "keywords": [],
-  "bugs": {
-    "url": "https://gitlab.sazze.com/nodejs/sz-thrift/issues"
-  },
+  "keywords": [
+    "thrift",
+    "client",
+    "server"
+  ],
   "author": {
     "name": "Craig Thayer",
     "email": "cthayer@sazze.com"
   },
-  "license": "Copyright 2014 by Sazze, Inc.  All rights reserved.",
+  "license": "MIT",
   "contributors": [
     {
       "name": "Craig Thayer",
