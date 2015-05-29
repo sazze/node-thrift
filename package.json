@@ -1,6 +1,6 @@
 {
   "name": "sz-thrift",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A thrift client/server library",
   "main": "./index.js",
   "homepage": "https://gitlab.sazze.com/nodejs/sz-thrift",
